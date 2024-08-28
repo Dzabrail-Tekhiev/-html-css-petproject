@@ -1,0 +1,83 @@
+body{
+  margin: 0 auto;
+  width: 600px;
+  height: 1218px;
+}
+
+p{
+font-family: Poppins;
+}
+
+
+
+.header-div{
+  margin: 10px 275px 10px 275px ;
+  text-align: center;
+}
+
+.main-div {
+  text-align: left;
+  font-size: 30px;
+  color: #1C1E23;
+  font-weight: 400;
+  margin: 10px 24px 12px 24px; /* Исправлено: отдельные значения для отступов */
+  width: 552px;
+  height: 48px;
+}
+
+.main-first-par {
+  margin: 0;
+}
+
+.main-div-cards-container {
+  display: flex; /* Flexbox для двух колонок */
+  gap: 5px; /* Промежуток между колонками */
+  flex-wrap: wrap; /* Если карточек больше, они будут переноситься на следующую строку */
+}
+
+.main-div-card {
+  width: 278px;
+  height: 476px;
+  display: flex;
+  flex-direction: column;
+  align-items: left; 
+}
+
+.main-div-img {
+  height: 290px;
+  width: 265px;
+}
+
+.second {
+  margin: 10px 9px 1px 9px;
+}
+
+.secondtwo {
+  margin: 1px 9px 16px 9px;
+}
+
+.button {
+  background-color: #489DFF;
+  color: white;
+  font-family: Poppins, sans-serif;
+  border: none;
+  width: 131px;
+  height: 48px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-left: 6px;
+  margin-bottom: 16px;
+}
+
+
+
+
+.hr{
+  border: solid 1px #F3F3F3;
+}
+
+.footer{
+ font-size: 12px;
+ text-align: center;
+}
+
